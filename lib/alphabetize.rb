@@ -3,5 +3,5 @@ def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |x|
     arange.split('').map do |y|
-      esperanto_alphabet.index(letter)
+      esperanto_alphabet.index(y)
 end
