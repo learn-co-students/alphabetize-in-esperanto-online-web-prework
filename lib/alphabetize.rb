@@ -5,3 +5,5 @@ def alphabetize(arr)
   x.split('').map do |y|
       return ESPERANTO_ALPHABET.index(y)
 end
+end
+end
