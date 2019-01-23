@@ -7,10 +7,9 @@ def alphabetize(arr)
   esperanto_alphabet.each.with_index do |letter|
     arr.each do |phrase|
       if phrase.slice(0) == letter
-        new_array << arr.pop(phrase)
+        new_array << phrase
       end
     end
   end
-  binding.pry
-  new_array.sort!
+  new_array.sort_by{|string| string.chars.map {|char| esperanto_alphabet.index(char)}}
 end
