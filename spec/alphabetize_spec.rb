@@ -25,6 +25,7 @@ describe "#alphabetize" do
     sorted_greetings = ["ŝĝĉĥŭĉ", "ŝĝĉĥŭĥ", "ŝĝĉĥŭĵ"]
     expect(alphabetize(greetings)).to eq(sorted_greetings)
   end
+end 
 
 
  
