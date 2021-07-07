@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  # code here
+  e_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.sort_by {|a| a.split("").collect {|c| e_alphabet.index(c)}}
 end
